@@ -1,0 +1,7 @@
+
+TableDoc.DataSet.Variables.AddNewGrid("BC4_1, BC4_2, BC4_3, BC4_4, BC4_5, BC4_6, BC4_7, BC4_8, BC4_9, BC4_10, BC4_11, BC4_12, BC4_13, BC4_14, BC4_15, BC4_16, BC4_17, BC4_18, BC4_19, BC4_20, BC4_21, BC4_22, BC4_23, BC4_24, BC4_25, BC4_26", _
+"BC4", "Summary Grid", "")
+Set objTable=TableDoc.Tables.AddNew("Table"+CText(TableDoc.Tables.Count+1))
+objTable.Specification = "BC4[].Column*BC4"
+objTable.Description = "BC4.SUMMARY TABLE"
+
